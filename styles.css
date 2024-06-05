@@ -49,25 +49,27 @@ header {
 .logoNav {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 42px;
+    gap: 31px;
     font-family: var(--font-family);
     font-size: var(--font-size-small);
     letter-spacing: 0.1em;
     color: black;
 }
+
 .logoNav > :first-child {
-    font-weight:var(--font-weight-500);
-    color:var(--accent-color);
+    font-weight: var(--font-weight-500);
+    color: var(--accent-color);
 }
 
 .firstScreenContainer {
     display: flex;
-    margin-top: 162px;
+    margin-top: 119px;
 }
 
 .firstScreenImg {
     display: inline-block;
     margin-right: 130px;
+    margin-left: 82px;
     margin-top: 42px;
 }
 
@@ -75,14 +77,25 @@ header {
     font-weight: var(--font-weight-500);
     font-size: var(--font-size-big);
     color: black;
+    margin-top: 21px;
+
+}
+
+.firstScreenInfo h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: var(--font-size-big);
 }
 
 .firstScreenInfo h4 {
     font-size: 16px;
+    font-weight: var(--font-weight-base);
     line-height: 26px;
     color: #727272;
-    margin: 60px 0;
+    margin-top: 46px;
+    margin-bottom: 52px;
 }
+
 
 .writeToMeBTN {
     display: flex;
@@ -95,4 +108,16 @@ header {
     letter-spacing: 0.1em;
     color: white;
     margin-bottom: 146px;
+    padding-top: 4px;
+    padding-left: 2px;
+}
+.writeToMeBTN h5 {
+    text-transform: uppercase;
+    font-size: 16px;
+    
+    line-height: 26px; 
+    line-height: 1.64062;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #fff;
 }
