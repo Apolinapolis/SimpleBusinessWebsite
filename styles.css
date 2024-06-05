@@ -6,6 +6,7 @@
     --font-size-big: 48px;
     --font-size-small: 16px;
     --accent-color: #34547a;
+    --small-text-color: #727272;
 }
 
 * {
@@ -19,6 +20,8 @@ body {
     font-family: var(--font-family);
     font-weight: var(--font-weight-base);
 }
+
+/* Header */
 
 header {
     background: #eeeff1;
@@ -56,7 +59,7 @@ header {
     color: black;
 }
 
-.logoNav > :first-child {
+.logoNav> :first-child {
     font-weight: var(--font-weight-500);
     color: var(--accent-color);
 }
@@ -91,7 +94,7 @@ header {
     font-size: 16px;
     font-weight: var(--font-weight-base);
     line-height: 26px;
-    color: #727272;
+    color: var(--small-text-color);
     margin-top: 46px;
     margin-bottom: 52px;
 }
@@ -111,13 +114,55 @@ header {
     padding-top: 4px;
     padding-left: 2px;
 }
+
 .writeToMeBTN h5 {
     text-transform: uppercase;
-    font-size: 16px;
-    
-    line-height: 26px; 
+    font-size: var(--font-size-small);
+    line-height: 26px;
     line-height: 1.64062;
     letter-spacing: 0.1em;
     text-align: center;
-    color: #fff;
+    color: white;
+}
+
+/* Обо мне */
+
+.about_me {
+    height: 247px;
+}
+
+.about_me_container {
+    width: 540px;
+    height: 147px;
+    margin: 100px auto;
+    margin-top: 119px;
+}
+
+.about_me h2 {
+    font-weight: var(--font-weight-500);
+    font-size: 32px;
+    text-align: center;
+    color: black;
+    margin-bottom: 38px;
+}
+
+.about_me h4 {
+    line-height: 26px;
+    text-align: center;
+    font-weight: var(--font-weight-base);
+    font-size: var(--font-size-small);
+    color: var(--small-text-color);
+}
+
+/* NUMBERS */
+
+.numbers {
+    height: 250px;
+    background-color:var(--accent-color);
+}
+.numbers_item {
+}
+.project {
+}
+.group {
 }
