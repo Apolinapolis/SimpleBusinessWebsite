@@ -158,17 +158,18 @@ header {
 
 .numbers {
     height: 250px;
-    background-color:var(--accent-color);
+    background-color: var(--accent-color);
     display: flex;
     align-items: center;
 }
 
 .numbers_container {
     display: grid;
-    grid-template-columns: repeat(6, 1fr) ;
+    grid-template-columns: repeat(6, 1fr);
     grid-auto-flow: row;
     gap: 30px;
 }
+
 .numbers_item {
     width: 141px;
     height: 50px;
@@ -183,15 +184,16 @@ header {
 .group {
     padding-top: 3px;
 }
+
 .group h5 {
     font-weight: var(--font-weight-500);
     font-size: 21px;
     margin-bottom: 5px;
 }
 
-.group h6{
-font-weight: var(--font-weight-base);
-font-size: var(--font-size-small);
+.group h6 {
+    font-weight: var(--font-weight-base);
+    font-size: var(--font-size-small);
 }
 
 /* skills */
@@ -219,16 +221,18 @@ font-size: var(--font-size-small);
     padding-left: 2px;
     margin-right: 150px;
 }
-.skills_list h2{
+
+.skills_list h2 {
     margin-top: 6px;
     margin-bottom: 43px;
     font-weight: 500;
     font-size: 32px;
 }
-.skills_list h4{
-    font-weight: 400;
-    font-size: 16px;
-    color: #727272;
+
+.skills_list h4 {
+    font-weight: var(--font-weight-base);
+    font-size: var(--font-size-small);
+    color: var(--small-text-color);
     margin-bottom: 16px;
 }
 
@@ -248,4 +252,37 @@ font-size: var(--font-size-small);
 .skills_img {
     max-width: 555px;
     max-height: 450px;
+}
+
+/* video */
+
+.video {
+    height: 1004px;
+    background: #eeeff1;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.video_tittle {
+    max-width: 540px;
+    height: 147px;
+    margin: 0 auto;
+    margin-bottom: 56px;
+}
+
+.video_tittle h2 {
+    font-weight: var(--font-weight-500);
+    font-size: 32px;
+    margin-bottom: 38px;
+}
+
+.video_tittle h4 {
+    font-weight: var(--font-weight-base);
+    font-size: var(--font-size-small);
+    line-height: 1.64062;
+    color: var(--small-text-color);
+}
+
+.video_logo {
+    height: 600px;
 }
