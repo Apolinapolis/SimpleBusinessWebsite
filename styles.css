@@ -330,3 +330,24 @@ header {
     justify-content: center;
     align-items: center;
 }
+
+
+/* clients */
+
+
+.clients {
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.clients .container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+
+
+
+
