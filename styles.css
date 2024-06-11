@@ -289,6 +289,13 @@ header {
 
 /* projects */
 
+/* img {
+    filter: greyscale(100%);
+    }
+    img:hover {
+    filter: greyscale(0);
+    } */
+
 .projects {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -348,6 +355,25 @@ header {
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     height: 150px;
+}
+.client img {
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.client img:hover{
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.5s;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    
 }
 
 /* form */
@@ -437,7 +463,7 @@ button {
 }
 
 button:hover {
-    background-color: blue;
+    background-color: rgb(4, 4, 26);
 }
 
 /* footer */
